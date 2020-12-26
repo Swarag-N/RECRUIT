@@ -1,27 +1,17 @@
-import logo from './logo.svg';
 import './App.less';
-import { Button } from 'antd';
 import 'antd/dist/antd.less';
+import 'antd/dist/antd.dark.less';
 import Results from './components/Results'
-// import 'antd/dist/antd.dark.less';
+import LOGO from './data/logo.png'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={LOGO} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        VIT <code> Linux User's Group Recruitment Drive</code> 🐧
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Button type="primary">Button</Button>
         <Results/>
       </header>
     </div>
