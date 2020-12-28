@@ -1,4 +1,28 @@
-# Getting Started with Create React App
+# RECRUIT
+
+Minimalist site to release your club/chapter recruits with your own domains.
+
+## All You have To Do
+
+- Adding DATA
+    - In src/DATA dir
+        - Replace LOGO with your orgnization's LOGO as `LOGO.png`
+        - CSV `shortlist.csv` coulumn names are:
+            - Name : Name of the Applicant (STRING)
+            - RegNo : Any Unique ID (STRING)
+            - Department : Department in which they are taken in
+    
+    - In public dir
+        - Use this site <https://favicon.io/favicon-converter/>
+        - Get the Zip file given and extract the file contents in Public Folder
+
+    - Changing Welcome Message and Favicon Details
+        - Edit Manifest File at `public/site.webmanifest`
+            - Changing these two `name` and `short_name` is enough
+        - Edit `site.json` file at  `src/data/site.json`
+            - Changing these two `name` and `wellcome_message` is enough
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -13,6 +37,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+<details>
+<summary>
+More Scripts
+</summary>
 
 ### `yarn test`
 
@@ -68,3 +97,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+</details>

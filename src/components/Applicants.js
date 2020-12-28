@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 import { List, Typography } from 'antd';
-import './Applicants.less'
 
 class Applicants extends Component {
-    constructor (props){
-        super(props)
-    }
+
 
     render() {
         let {shortlist} = this.props
