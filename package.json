@@ -2,6 +2,7 @@
   "name": "recruit",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://swarag-n.github.io/RECRUIT/",
   "dependencies": {
     "@craco/craco": "^6.0.0",
     "@testing-library/jest-dom": "^5.11.4",
